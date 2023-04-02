@@ -82,7 +82,7 @@ The Following table shows the results of the models on the test set (3k images)
 
 ### Checkpoints
 you can find the checkpoints of the 3 models [here](https://drive.google.com/drive/folders/1yjNUPtligEerNZlvzEfXuK-SqP5kNwvm?usp=share_link)
-### Conclusion
+## Conclusion
 - **EfficientNet b5** b5 model is the best model for this task, it has the highest accuracy and the highest ROC AUC score, but it is also the most computationally expensive model. 
 - **Resnet18** model is the second best model, it has a lower accuracy and ROC AUC score, but it is also less computationally expensive. 
 - **MobileNetV3_s** model is the worst model for this task, it has the lowest accuracy and ROC AUC score, but it is also the least computationally expensive model.
@@ -123,7 +123,7 @@ The Following table shows the results of the models on the test set (2k images)
 ### Checkpoints
 you can find the checkpoints of the 3 models [here](https://drive.google.com/drive/folders/1Tmoi57-YvGRfJjatPR4xRGxAUE_-tUzX?usp=share_link)
 
-### Conclusion
+## Conclusion
 - **EfficientNet b5** b5 model is the best model for this task, it has the lowest MSE loss, but it is also the most computationally expensive model.
 
 - **Resnet18** and **MobileNetV3_s** have similar MSE losses, but **MobileNetV3_s** is less computationally expensive than **Resnet18**.
