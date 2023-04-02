@@ -71,7 +71,7 @@ The [Dataset](https://drive.google.com/file/d/1hu472ALwGPBcTCXSAM0VoCWmTktg9j-j/
 
 ![Task3 input](https://github.com/0ssamaak0/ML4SCI-GSOC23-Tests/blob/master/imgs/Task3.png?raw=true)
 ## Data Preprocessing
-The data is resized for EfficientNet b5 only, and the channels are duplicaetd ti make it 3 channels, horizontal and vertical flips are applied to the data randomly
+The data is resized to 3x224x224 for EfficientNet b5 only, however, horizontal and vertical flips are applied to the trained data randomly for all used models
 
 ## Approach
 The same Approach in Task1 is used here, but the model is trained on the log of the mass of the halo, and the loss function is the mean squared error (MSE)
