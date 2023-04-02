@@ -4,7 +4,7 @@ The task is to build a model that can identify different types of lensing images
 The model should be able to distinguish between images that have no substructure, images that have subhalo substructure, which are small clumps of dark matter, and images that have vortex substructure.
 
 ## Dataset
-The [Dataset]((https://drive.google.com/file/d/1B_UZtU4W65ZViTJsLeFfvK-xXCYUhw2A/view)) Consists of 30k train images and 3k test images, all of size 1x150x150
+The [Dataset](https://drive.google.com/file/d/1B_UZtU4W65ZViTJsLeFfvK-xXCYUhw2A/view) Consists of 30k train images and 3k test images, all of size 1x150x150
 
 **Note:** The Original Directories names are **train** for the 30k one and **val** for the 3k one, but since we used it for testing we will call it test for the rest of the document.
 
