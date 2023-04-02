@@ -30,7 +30,6 @@ The Following table shows the results of the models on the test set (3k images)
 |MobileNetV3_s|0.3270|88.67%|0.9741|
 
 ### ROC Curves
-<p float=“left”> <img src=“https://github.com/0ssamaak0/ML4SCI-GSOC23-Tests/blob/master/imgs/Resnet18_ROC.png?raw=true” width=500 /> <img src=“https://github.com/0ssamaak0/ML4SCI-GSOC23-Tests/blob/master/imgs/Resnet18_ROC.png?raw=true” width=500 /> </p>
 
 1. EfficientNet b5
 ![EfficientNet b5 ROC Curve](https://github.com/0ssamaak0/ML4SCI-GSOC23-Tests/blob/master/imgs/EffNetb5_ROC.png?raw=true)
@@ -82,5 +81,21 @@ The Following table shows the results of the models on the test set (2k images)
 |Resnet18|0.2997|6.8e-5|
 |MobileNetV3_s|6.1e-5|
 
+### Regression Plots (True vs Predicted)
+1. EfficientNet b5
+![EfficientNet b5 Regression Plot](https://github.com/0ssamaak0/ML4SCI-GSOC23-Tests/blob/master/imgs/Effnetb5_Reg.png?raw=true)
 
-https://drive.google.com/drive/folders/1Tmoi57-YvGRfJjatPR4xRGxAUE_-tUzX?usp=share_link
+2. Resnet18
+![Resnet18 Regression Plot](https://github.com/0ssamaak0/ML4SCI-GSOC23-Tests/blob/master/imgs/MobileNetV3_Reg.png?raw=true)
+
+3. MobileNetV3_s
+![MobileNetV3_s Regression Plot](https://github.com/0ssamaak0/ML4SCI-GSOC23-Tests/blob/master/imgs/Resnet18_Reg.png?raw=true)
+
+### Checkpoints
+you can find the checkpoints of the 3 models [here](https://drive.google.com/drive/folders/1Tmoi57-YvGRfJjatPR4xRGxAUE_-tUzX?usp=share_link)
+
+### Conclusion
+- **EfficientNet b5** b5 model is the best model for this task, it has the lowest MSE loss, but it is also the most computationally expensive model.
+
+- **Resnet18** and **MobileNetV3_s** have similar MSE losses, but **MobileNetV3_s** is less computationally expensive than **Resnet18**.
+
