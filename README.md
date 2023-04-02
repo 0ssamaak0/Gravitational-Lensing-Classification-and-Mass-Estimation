@@ -66,6 +66,9 @@ The task is to use machine learning to estimate the mass of dark matter halos ar
 By analyzing the shape and distortion of the lensed images, one can infer the properties of the dark matter halos that cause the lensing. 
 ## Dataset
 The [Dataset](https://drive.google.com/file/d/1hu472ALwGPBcTCXSAM0VoCWmTktg9j-j/view) consists of 20k images of size 1x150x150, and it has been splitted into 81:9:10 for train, validation, and test respectively.
+
+sample input
+![Task3 input]
 ## Data Preprocessing
 The data is resized for EfficientNet b5 only, and the channels are duplicaetd ti make it 3 channels, horizontal and vertical flips are applied to the data randomly
 
