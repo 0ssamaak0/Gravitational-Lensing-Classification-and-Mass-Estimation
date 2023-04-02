@@ -6,6 +6,8 @@ The model should be able to distinguish between images that have no substructure
 ## Dataset
 The [Dataset](https://drive.google.com/file/d/1B_UZtU4W65ZViTJsLeFfvK-xXCYUhw2A/view) Consists of 30k train images and 3k test images, all of size 1x150x150
 
+![Task1 input](https://github.com/0ssamaak0/ML4SCI-GSOC23-Tests/blob/master/imgs/Task1.png?raw=true)
+
 **Note:** The Original Directories names are **train** for the 30k one and **val** for the 3k one, but since we used it for testing we will call it test for the rest of the document.
 
 ## Data Preprocessing
@@ -67,8 +69,7 @@ By analyzing the shape and distortion of the lensed images, one can infer the pr
 ## Dataset
 The [Dataset](https://drive.google.com/file/d/1hu472ALwGPBcTCXSAM0VoCWmTktg9j-j/view) consists of 20k images of size 1x150x150, and it has been splitted into 81:9:10 for train, validation, and test respectively.
 
-sample input
-![Task3 input]
+![Task3 input](https://github.com/0ssamaak0/ML4SCI-GSOC23-Tests/blob/master/imgs/Task3.png?raw=true)
 ## Data Preprocessing
 The data is resized for EfficientNet b5 only, and the channels are duplicaetd ti make it 3 channels, horizontal and vertical flips are applied to the data randomly
 
