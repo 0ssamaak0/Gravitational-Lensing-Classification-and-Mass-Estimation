@@ -36,7 +36,7 @@ The [Dataset](https://drive.google.com/file/d/1B_UZtU4W65ZViTJsLeFfvK-xXCYUhw2A/
 **Note:** The Original Directories names are **train** for the 30k one and **val** for the 3k one, but since we used it for testing we will call it test for the rest of the document.
 
 ## Data Preprocessing
-The data is resized and the channels are duplicaetd ti make it 3 channels
+The data is resized and the channels are duplicaetd to make it 3 channels
 
 ## Evaluation Criteria
 The model should be evaluated by how well it can separate the classes using a ROC curve and an AUC score, which measure the trade-off between true positive and false positive rates.
